@@ -24,7 +24,7 @@
       </con:credentials>
       <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
       <con:parameters>
-        <con:entry key="sessionId" value="session1"/>
+        <con:entry key="sessionId" value="session176"/>
       </con:parameters>
       <con:parameterOrder>
         <con:entry>sessionId</con:entry>
