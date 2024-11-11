@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config" name="" path="buy" id="fffba967-3a90-495f-b4c0-1e847dabedd0">
+<con:resource xmlns:con="http://eviware.com/soapui/config" id="fffba967-3a90-495f-b4c0-1e847dabedd0" name="" path="buy">
   <con:settings>
     <con:setting id="fffba967-3a90-495f-b4c0-1e847dabedd0fileName">buy</con:setting>
   </con:settings>
   <con:parameters/>
-  <con:method name="Method 1" id="f1aa6fe9-73ad-4ffb-956c-7fd75e3ec9c3" method="POST">
+  <con:method id="f1aa6fe9-73ad-4ffb-956c-7fd75e3ec9c3" method="POST" name="Method 1">
     <con:settings/>
     <con:parameters>
       <con:parameter required="true">
@@ -14,7 +14,7 @@
         <con:default/>
       </con:parameter>
     </con:parameters>
-    <con:request name="Request 1" id="5c7553db-1098-4f33-b73a-f8a3d57eb115" mediaType="application/json" postQueryString="false">
+    <con:request id="5c7553db-1098-4f33-b73a-f8a3d57eb115" mediaType="application/json" name="Request 1" postQueryString="false">
       <con:settings/>
       <con:endpoint>http://localhost:8080</con:endpoint>
       <con:request/>
@@ -31,10 +31,10 @@
       </con:parameterOrder>
     </con:request>
   </con:method>
-  <con:method name="Method 2" id="85e954ec-e016-4c44-b262-4cf6bb9333de" method="GET">
+  <con:method id="85e954ec-e016-4c44-b262-4cf6bb9333de" method="GET" name="Method 2">
     <con:settings/>
     <con:parameters/>
-    <con:request name="Request 1" id="ebcdf82a-9274-462a-a86f-b618365f5283" mediaType="application/json">
+    <con:request id="ebcdf82a-9274-462a-a86f-b618365f5283" mediaType="application/json" name="Request 1">
       <con:settings/>
       <con:endpoint>http://localhost:8080</con:endpoint>
       <con:request/>
