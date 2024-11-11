@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config" name="" path="" id="fffba967-3a90-495f-b4c0-1e847dabedd0">
+<con:resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config" name="" path="buy" id="fffba967-3a90-495f-b4c0-1e847dabedd0">
   <con:settings>
-    <con:setting id="fffba967-3a90-495f-b4c0-1e847dabedd0fileName"/>
+    <con:setting id="fffba967-3a90-495f-b4c0-1e847dabedd0fileName">buy</con:setting>
   </con:settings>
   <con:parameters/>
   <con:method name="Method 1" id="f1aa6fe9-73ad-4ffb-956c-7fd75e3ec9c3" method="POST">
