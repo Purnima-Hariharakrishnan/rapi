@@ -6,7 +6,7 @@
   <con:definitionCache type="TEXT" rootPart="Buy.json">
     <con:part>
       <con:url>Buy.json</con:url>
-      <con:content>{"openapi":"3.0.1","info":{"title":"Buy","description":"","version":"1.0.0"},"servers":[{"url":"/"}],"paths":{"":{"description":"","get":{"description":"","responses":{"default":{"description":"Default response"}}},"post":{"description":"","requestBody":{"content":{"application/json":{}}},"responses":{"default":{"description":"Default response"}}}}}}</con:content>
+      <con:content>{"openapi":"3.0.1","info":{"title":"Buy","description":"test","version":"1.0.0"},"servers":[{"url":"/"}],"paths":{"":{"description":"","get":{"description":"","responses":{"default":{"description":"Default response"}}},"post":{"description":"","requestBody":{"content":{"application/json":{}}},"responses":{"default":{"description":"Default response"}}}}}}</con:content>
       <con:type>https://swagger.io/openapiv3/specification</con:type>
     </con:part>
   </con:definitionCache>
