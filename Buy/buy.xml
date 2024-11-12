@@ -63,9 +63,9 @@
       </con:credentials>
       <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
       <con:parameters>
-        <con:entry key="itemid" value="item6"/>
+        <con:entry key="itemid" value="item68"/>
         <con:entry key="item" value=""/>
-        <con:entry key="item 3" value="item30"/>
+        <con:entry key="item 3" value="item300"/>
       </con:parameters>
       <con:parameterOrder>
         <con:entry>item</con:entry>
@@ -83,8 +83,8 @@
       </con:credentials>
       <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
       <con:parameters>
-        <con:entry key="itemid" value="item 8"/>
-        <con:entry key="item" value="item20"/>
+        <con:entry key="itemid" value="item 18"/>
+        <con:entry key="item" value="item280"/>
         <con:entry key="item 3" value="item50"/>
       </con:parameters>
       <con:parameterOrder>
