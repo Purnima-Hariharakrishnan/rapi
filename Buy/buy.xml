@@ -83,7 +83,7 @@
       </con:credentials>
       <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
       <con:parameters>
-        <con:entry key="itemid" value=""/>
+        <con:entry key="itemid" value="item 8"/>
         <con:entry key="item" value="item20"/>
         <con:entry key="item 3" value="item50"/>
       </con:parameters>
