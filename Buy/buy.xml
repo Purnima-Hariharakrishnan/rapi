@@ -40,6 +40,18 @@
         <con:style>QUERY</con:style>
         <con:default/>
       </con:parameter>
+      <con:parameter required="true">
+        <con:name>item 3</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>itemid</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
     </con:parameters>
     <con:request id="ebcdf82a-9274-462a-a86f-b618365f5283" mediaType="application/json" name="Request 1">
       <con:settings/>
@@ -51,10 +63,14 @@
       </con:credentials>
       <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
       <con:parameters>
+        <con:entry key="itemid" value="item6"/>
         <con:entry key="item" value=""/>
+        <con:entry key="item 3" value=""/>
       </con:parameters>
       <con:parameterOrder>
         <con:entry>item</con:entry>
+        <con:entry>item 3</con:entry>
+        <con:entry>itemid</con:entry>
       </con:parameterOrder>
     </con:request>
     <con:request name="Request 2" id="2adb2f8f-4b98-4f99-82cb-05548c6ab5b1" mediaType="application/json">
@@ -67,10 +83,14 @@
       </con:credentials>
       <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
       <con:parameters>
+        <con:entry key="itemid" value=""/>
         <con:entry key="item" value="item20"/>
+        <con:entry key="item 3" value="item50"/>
       </con:parameters>
       <con:parameterOrder>
         <con:entry>item</con:entry>
+        <con:entry>item 3</con:entry>
+        <con:entry>itemid</con:entry>
       </con:parameterOrder>
     </con:request>
   </con:method>
