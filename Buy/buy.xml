@@ -33,7 +33,14 @@
   </con:method>
   <con:method id="85e954ec-e016-4c44-b262-4cf6bb9333de" method="GET" name="Method 2">
     <con:settings/>
-    <con:parameters/>
+    <con:parameters>
+      <con:parameter required="true">
+        <con:name>item</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+    </con:parameters>
     <con:request id="ebcdf82a-9274-462a-a86f-b618365f5283" mediaType="application/json" name="Request 1">
       <con:settings/>
       <con:endpoint>http://localhost:8080</con:endpoint>
@@ -43,7 +50,12 @@
         <con:authType>No Authorization</con:authType>
       </con:credentials>
       <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
-      <con:parameters/>
+      <con:parameters>
+        <con:entry key="item" value=""/>
+      </con:parameters>
+      <con:parameterOrder>
+        <con:entry>item</con:entry>
+      </con:parameterOrder>
     </con:request>
     <con:request name="Request 2" id="2adb2f8f-4b98-4f99-82cb-05548c6ab5b1" mediaType="application/json">
       <con:settings/>
@@ -54,7 +66,12 @@
         <con:authType>No Authorization</con:authType>
       </con:credentials>
       <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
-      <con:parameters/>
+      <con:parameters>
+        <con:entry key="item" value="item20"/>
+      </con:parameters>
+      <con:parameterOrder>
+        <con:entry>item</con:entry>
+      </con:parameterOrder>
     </con:request>
   </con:method>
 </con:resource>
